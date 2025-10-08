@@ -22,7 +22,6 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    background-color: #f5f4f5;
 }
 
 .head {
@@ -502,4 +501,5 @@ body {
     .foot {
         margin-top: 1250px;
     }
+
 }
