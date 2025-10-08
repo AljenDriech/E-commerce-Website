@@ -118,3 +118,9 @@ button:hover {
 .register a:hover {
   text-decoration: underline;
 }
+
+@media (width < 385px) {
+  .form_div {
+    width: 250px;
+  }
+}
