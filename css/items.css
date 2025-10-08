@@ -184,6 +184,7 @@ body {
     height: 50px;
     margin-left: 170px;
     display: block;
+    filter: invert(100%);
 }
 
 .icons {
@@ -557,4 +558,5 @@ body {
   }
 
 }
+
 
