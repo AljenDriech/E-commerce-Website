@@ -12,7 +12,6 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    background-color: #f5f4f5;
 }
 
 .head {
@@ -557,4 +556,5 @@ body {
   .product-image{
     margin-top: -100px;
   }
+
 }
