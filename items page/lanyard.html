@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/images/prxwhite.png">
+    <link rel="stylesheet" href="/fontawesome/all.min.css" />
+    <link rel="stylesheet" href="/fontawesome/fontawesome.min.css" />
+    <link rel="stylesheet" href="/css/items.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+    <title>PRX SHOP</title>
+</head>
+<body>
+    
+    <header class="head">
+      <div class="menu-toggle">
+        <label for="menu-toggle-checkbox" class="menu-icon">
+          <i class="fa-solid fa-bars menu-icon"></i>
+        </label>
+      </div>
+
+      <div class="logo">
+        <a href="/html/home.html">
+          <img class="prx_logo" src="/images/prxwhite.png" alt="prxlogo" />
+        </a>
+      </div>
+
+      <div class="icons">
+        <i class="fa-solid fa-magnifying-glass icon"></i>
+        <i class="fa-regular fa-user icon"></i>
+
+        <div class="cart"> 
+          <i class="fa-solid fa-cart-shopping icon"></i>
+          <span class="cart_count">0</span>
+        </div>
+      </div>
+    </header>
+
+    <div id="cart-drawer" class="cart-drawer">
+  <div class="cart-header">
+    <h2>Cart</h2>
+    <button class="close-cart"><i class="fa-solid fa-xmark"></i></button>
+  </div>
+
+  <div class="cart-items"></div>
+
+  <div class="cart-footer">
+    <p class="cart-subtotal">Subtotal: ₱0.00</p>
+    <button class="checkout-btn">CHECKOUT</button>
+    <p class="cart-note">Shipping and taxes calculated at checkout</p>
+  </div>
+</div>
+
+<div id="cart-overlay" class="cart-overlay"></div>
+    
+    <input type="checkbox" id="menu-toggle-checkbox" />
+    <label for="menu-toggle-checkbox" class="overlay"></label>
+
+    <nav class="sidebar">
+      <label for="menu-toggle-checkbox" class="close-btn">
+        <i class="fa-solid fa-xmark"></i>
+      </label>
+      <a href="/html/jerseys.html"><text class="side_text">JERSEYS</text></a>
+      <a href="/html/accessories.html"><text class="side_text">ACCESSORIES</text></a>
+      <a href="/html/tshirts.html"><text class="side_text">T-SHIRTS</text></a>
+      <a href="/html/hoodies.html"><text class="side_text">HOODIES</text></a>
+    </nav>
+
+    <main class="product-page">
+  <section class="product-hero">
+    <div class="product-image">
+      <img src="/images/accessories/raptor_lanyard.png">
+    </div>
+
+    <aside class="product-card">
+      <h1 class="product-title">PRX WGAMING&trade; Raptor Lanyard</h1>
+      <div class="product-price">₱ 500.00 PHP</div>
+      <div class="product-meta">Shipping calculated at checkout.</div>
+    </div>
+
+
+
+      <div class="product-section">
+        <label class="product-label">Quantity</label>
+        <input type="number" class="product-qty" value="1" min="1">
+      </div>
+
+      <div class="product-actions">
+        <button class="btn-primary add-to-cart">Add to cart</button>
+      </div>
+
+      <div class="product-info">
+        <p><strong>Description</strong></p>
+        <p>
+          Recall the thrill of starting the season at 0-3 and then clinching victories at Toronto and VCT Pacific Stage 2? That’s the fierce raptor spirit captured here. Pair it with your Paper Rex Raptor Jersey print for an unbeatable style combo! Ideal for keeping your daily essentials handy while staying effortlessly cool.
+        </p>
+
+      </div>
+    </aside>
+  </section>
+</main>
+
+<footer class="foot">
+    <div class="_div">
+      <p>&copy; 2025 Paper Rex Shop Copy</p>
+      <a href="https://github.com/AljenDriech"><i class="fa-brands fa-github github"></i></a>
+    </div>
+  </footer>
+
+  <script src="/js/cart.js"></script>
+</body>
+</html>

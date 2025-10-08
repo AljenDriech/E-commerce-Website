@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/images/prxwhite.png">
+    <link rel="stylesheet" href="/fontawesome/all.min.css" />
+    <link rel="stylesheet" href="/fontawesome/fontawesome.min.css" />
+    <link rel="stylesheet" href="/css/items.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+    <title>PRX SHOP</title>
+</head>
+<body>
+    
+    <header class="head">
+      <div class="menu-toggle">
+        <label for="menu-toggle-checkbox" class="menu-icon">
+          <i class="fa-solid fa-bars menu-icon"></i>
+        </label>
+      </div>
+
+      <div class="logo">
+        <a href="/html/home.html">
+          <img class="prx_logo" src="/images/prxwhite.png" alt="prxlogo" />
+        </a>
+      </div>
+
+      <div class="icons">
+        <i class="fa-solid fa-magnifying-glass icon"></i>
+        <i class="fa-regular fa-user icon"></i>
+
+        <div class="cart"> 
+          <i class="fa-solid fa-cart-shopping icon"></i>
+          <span class="cart_count">0</span>
+        </div>
+      </div>
+    </header>
+
+    <div id="cart-drawer" class="cart-drawer">
+  <div class="cart-header">
+    <h2>Cart</h2>
+    <button class="close-cart"><i class="fa-solid fa-xmark"></i></button>
+  </div>
+
+  <div class="cart-items"></div>
+
+  <div class="cart-footer">
+    <p class="cart-subtotal">Subtotal: ₱0.00</p>
+    <button class="checkout-btn">CHECKOUT</button>
+    <p class="cart-note">Shipping and taxes calculated at checkout</p>
+  </div>
+</div>
+
+<div id="cart-overlay" class="cart-overlay"></div>
+    
+    <input type="checkbox" id="menu-toggle-checkbox" />
+    <label for="menu-toggle-checkbox" class="overlay"></label>
+
+    <nav class="sidebar">
+      <label for="menu-toggle-checkbox" class="close-btn">
+        <i class="fa-solid fa-xmark"></i>
+      </label>
+      <a href="/html/jerseys.html"><text class="side_text">JERSEYS</text></a>
+      <a href="/html/accessories.html"><text class="side_text">ACCESSORIES</text></a>
+      <a href="/html/tshirts.html"><text class="side_text">T-SHIRTS</text></a>
+      <a href="/html/hoodies.html"><text class="side_text">HOODIES</text></a>
+    </nav>
+
+    <main class="product-page">
+  <section class="product-hero">
+    <div class="product-image">
+      <img src="/images/jackets/jacket3.png" alt="PRX Hoodie main view">
+    </div>
+
+    <aside class="product-card">
+      <h1 class="product-title">PRX Basic White Hoodie</h1>
+      <div class="product-price">₱ 2,800.00 PHP</div>
+      <div class="product-meta">Shipping calculated at checkout.</div>
+
+      <div class="product-section">
+        <label class="product-label">Color</label>
+        <div class="product-colors">
+          <span class="color-swatch" style="background:white;" title="White"></span>
+        </div>
+      </div>
+
+      <div class="product-section">
+        <label class="product-label">Size</label>
+        <div class="product-sizes">
+            <input type="radio" id="size-s" name="size" hidden>
+            <label for="size-s" class="product-size">S</label>
+
+            <input type="radio" id="size-m" name="size" hidden>
+            <label for="size-m" class="product-size">M</label>
+
+            <input type="radio" id="size-l" name="size" hidden>
+            <label for="size-l" class="product-size">L</label>
+
+            <input type="radio" id="size-xl" name="size" hidden>
+            <label for="size-xl" class="product-size">XL</label>
+
+            <input type="radio" id="size-2xl" name="size" hidden>
+            <label for="size-2xl" class="product-size">2XL</label>
+
+            <input type="radio" id="size-3xl" name="size" hidden>
+            <label for="size-3xl" class="product-size">3XL</label>
+        </div>
+    </div>
+
+
+
+      <div class="product-section">
+        <label class="product-label">Quantity</label>
+        <input type="number" class="product-qty" value="1" min="1">
+      </div>
+
+      <div class="product-actions">
+        <button class="btn-primary add-to-cart">Add to cart</button>
+      </div>
+
+      <div class="product-info">
+        <p><strong>Description</strong></p>
+        <p>
+          You show up to LAN, ready to pop off, and—boom—the AC is blasting like it’s the Ice Age. Step outside? Oh cool, now it’s monsoon season. That’s why we brought back the PRX Basic White Hoodie, now softer, cozier, and straight-up better than before. Whether you’re grinding ranked at 3AM, trying to recover from a heartbreak scrim, or just desperately searching for warmth, this hoodie’s got you covered.
+        </p>
+
+        <p><strong>Size Chart (cm)</strong></p>
+        <table class="product-size-table">
+          <thead>
+            <tr><th>Size</th><th>Shoulder</th><th>Length</th><th>Chest</th><th>Sleeve</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>S</td><td>52</td><td>69</td><td>56</td><td>61</td></tr>
+            <tr><td>M</td><td>54</td><td>71</td><td>58</td><td>62.5</td></tr>
+            <tr><td>L</td><td>56</td><td>73</td><td>60</td><td>64</td></tr>
+            <tr><td>XL</td><td>58</td><td>75</td><td>62</td><td>65.5</td></tr>
+            <tr><td>2XL</td><td>60</td><td>77</td><td>64</td><td>67</td></tr>
+            <tr><td>3XL</td><td>62</td><td>79</td><td>66</td><td>68.5</td></tr>
+          </tbody>
+        </table>
+
+        <div class="product-legends">
+          <p><strong>Legends:</strong></p>
+          <ul>
+            <li><b>Shoulder</b> — seam-to-seam across shoulders</li>
+            <li><b>Length</b> — from highest point of shoulder to hem</li>
+            <li><b>Chest</b> — measured under armpits, across chest</li>
+            <li><b>Sleeve</b> — shoulder seam to sleeve end</li>
+          </ul>
+        </div>
+      </div>
+    </aside>
+  </section>
+</main>
+
+<footer class="foot">
+    <div class="_div">
+      <p>&copy; 2025 Paper Rex Shop Copy</p>
+      <a href="https://github.com/AljenDriech"><i class="fa-brands fa-github github"></i></a>
+    </div>
+  </footer>
+
+  <script src="/js/cart.js"></script>
+</body>
+</html>
