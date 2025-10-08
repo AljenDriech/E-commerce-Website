@@ -385,7 +385,8 @@ body {
     animation: appear linear;
     animation-timeline: view();
     animation-range: entry 0% cover 30%;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     justify-content: center;
     align-items: center;
     padding-left: 50px;
@@ -544,3 +545,4 @@ body {
     }
 
 }
+
