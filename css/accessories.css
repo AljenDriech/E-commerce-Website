@@ -365,7 +365,8 @@ body {
     animation: appear linear;
     animation-timeline: view();
     animation-range: entry 0% cover 30%;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
     justify-content: center;
     align-items: center;
     padding-left: 20px;
@@ -486,7 +487,7 @@ body {
 }
 
 .foot {
-    margin-top: 50px;
+    margin-top: 500px;
     text-align: center;
 }
 
