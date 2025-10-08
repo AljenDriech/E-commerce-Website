@@ -25,7 +25,6 @@ body {
     justify-content: space-between;
     padding: 10px 20px;
     backdrop-filter: blur(2px);
-    color: white;
     background-color: transparent;
     align-items: center;
     mix-blend-mode: difference;
@@ -558,3 +557,4 @@ body {
   }
 
 }
+
