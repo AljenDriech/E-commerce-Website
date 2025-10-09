@@ -783,11 +783,12 @@ body {
         visibility: hidden;
     }
 
-    .logo{
+    /* .logo{
         padding-left: 50px;
-    }
+    } */
 
     .prx_logo {
+        padding-left: 50px;
         height: 25px;
     }
     
@@ -961,6 +962,7 @@ body {
     }
 
 }
+
 
 
 
