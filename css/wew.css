@@ -189,7 +189,7 @@ body {
 }
 
 .logo {
-    padding-left: 170px;
+    margin-left: 170px;
     cursor: pointer;
 }
 
@@ -783,9 +783,9 @@ body {
         visibility: hidden;
     }
 
-    /* .logo{
-        padding-left: 50px;
-    } */
+    .logo {
+        margin-left: 65px;
+    }
 
     .prx_logo {
         padding-right: 50px;
@@ -961,6 +961,7 @@ body {
     }
 
 }
+
 
 
 
