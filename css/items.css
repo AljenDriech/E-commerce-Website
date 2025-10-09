@@ -520,7 +520,7 @@ body {
     transform: scale(1.1);
 }
 
-@media ( width < 450px) {
+@media ( width < 481px) {
   .head{
     width: 104vw;
     height: 15px;
@@ -558,6 +558,7 @@ body {
   }
 
 }
+
 
 
 
