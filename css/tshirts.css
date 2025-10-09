@@ -188,7 +188,7 @@ body {
 }
 
 .logo {
-    padding-left: 170px;
+    margin-left: 60px;
     cursor: pointer;
 }
 
@@ -545,6 +545,7 @@ body {
     }
 
 }
+
 
 
 
