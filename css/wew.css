@@ -769,7 +769,7 @@ body {
 
 @media (width < 450px) {
     html {
-        width: 104%;
+        width: 100vw;
         overflow-x: hidden;
     }
 
@@ -862,7 +862,7 @@ body {
     }
 
     .accessories {
-        width: 100%;
+        width: 100vw;
         padding-bottom: 20px;
     }
 
@@ -884,7 +884,7 @@ body {
 
     .tshirt_section {
         height: 27%;
-        width: 100%;
+        width: 100vw;
         padding-bottom: 20px;
     }
 
@@ -908,7 +908,7 @@ body {
 
     .hoodies_section {
         height: 27%;
-        width: 100%;
+        width: 100vw;
     }
 
     .hoodies_text {
@@ -938,7 +938,7 @@ body {
     }
 
     .about{
-        width: 100%;
+        width: 100vw;
     }
 
     .abt_h1 {
@@ -959,3 +959,4 @@ body {
     }
 
 }
+
