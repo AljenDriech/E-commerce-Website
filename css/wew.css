@@ -207,6 +207,7 @@ body {
 }
 
 .icon {
+    margin-top: 10px;
     transition: transform 0.3s ease;
 }
 
@@ -960,4 +961,5 @@ body {
     }
 
 }
+
 
