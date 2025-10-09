@@ -522,7 +522,7 @@ body {
 
 @media ( width < 481px) {
   .head{
-    width: 104vw;
+    width: 100vw;
     height: 15px;
     backdrop-filter: blur(0px);
   }
@@ -554,11 +554,7 @@ body {
   }
 
   .product-image{
+      z-index: 500;
     margin-top: -100px;
   }
-
 }
-
-
-
-
