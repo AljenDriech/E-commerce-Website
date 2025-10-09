@@ -774,7 +774,7 @@ body {
     }
 
     .head{
-        width: 104vw;
+        width: 100vw;
         height: 15px;
         backdrop-filter: blur(0px);
     }
@@ -818,7 +818,7 @@ body {
     }
 
     .teambg {
-        width: 99%;
+        width: 100%;
     }
 
     .cart-drawer {
@@ -959,4 +959,5 @@ body {
     }
 
 }
+
 
