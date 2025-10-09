@@ -471,7 +471,7 @@ body {
     background: purple;
 }
 
-@media (width < 450px) {
+@media (width < 481px) {
     .head{
         width: 100vw;
         height: 15px;
@@ -503,4 +503,5 @@ body {
     }
 
 }
+
 
