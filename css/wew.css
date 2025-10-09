@@ -767,7 +767,7 @@ body {
     justify-content: center;
 }
 
-@media (width < 385px) {
+@media (width < 450px) {
     html {
         width: 104%;
         overflow-x: hidden;
@@ -957,4 +957,5 @@ body {
         font-size: 12px;
         padding-right: 100px;
     }
+
 }
