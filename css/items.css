@@ -555,8 +555,9 @@ body {
   }
 
   .product-image{
-      z-index: 500;
+      z-index: 1;
     margin-top: -100px;
   }
 }
+
 
