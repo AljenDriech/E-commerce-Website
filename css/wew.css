@@ -207,7 +207,6 @@ body {
 }
 
 .icon {
-    margin-top: 10px;
     transition: transform 0.3s ease;
 }
 
@@ -826,6 +825,10 @@ body {
         height: 100vh;
     }
 
+    .cart-count {
+        margin-top: 10px;
+    }
+    
     .hot {
         height: 27%;
         width: 100%;
@@ -961,5 +964,6 @@ body {
     }
 
 }
+
 
 
