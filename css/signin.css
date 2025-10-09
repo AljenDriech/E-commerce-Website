@@ -119,8 +119,9 @@ button:hover {
   text-decoration: underline;
 }
 
-@media (width < 385px) {
+@media (width < 450px) {
   .form_div {
     width: 250px;
   }
 }
+
