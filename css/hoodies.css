@@ -188,7 +188,7 @@ body {
 }
 
 .logo {
-    padding-left: 170px;
+    margin-left: 170px;
     cursor: pointer;
 }
 
@@ -479,7 +479,7 @@ body {
     }
 
     .logo{
-        padding-left: 50px;
+        margin-left: 60px;
     }
 
     .prx_logo {
@@ -503,5 +503,6 @@ body {
     }
 
 }
+
 
 
