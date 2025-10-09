@@ -522,6 +522,7 @@ body {
 
 @media ( width < 481px) {
   .head{
+      z-index: 9999;
     width: 100vw;
     height: 15px;
     backdrop-filter: blur(0px);
@@ -558,3 +559,4 @@ body {
     margin-top: -100px;
   }
 }
+
