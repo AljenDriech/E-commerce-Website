@@ -767,7 +767,7 @@ body {
     justify-content: center;
 }
 
-@media (width < 450px) {
+@media (width < 4812px) {
     html {
         width: 100vw;
         overflow-x: hidden;
@@ -788,7 +788,7 @@ body {
     } */
 
     .prx_logo {
-        padding-left: 50px;
+        /* padding-left: 50px; */
         height: 25px;
     }
     
@@ -961,6 +961,7 @@ body {
     }
 
 }
+
 
 
 
