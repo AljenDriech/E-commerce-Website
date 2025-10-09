@@ -188,7 +188,7 @@ body {
 }
 
 .logo {
-    margin-left: 60px;
+    margin-left: 170px;
     cursor: pointer;
 }
 
@@ -519,6 +519,11 @@ body {
         height: 15px;
         backdrop-filter: blur(0px);
     }
+
+    .logo {
+        margin-left: 60;
+    }
+    
     .prx_logo {
         height: 25px;
     }
@@ -540,6 +545,7 @@ body {
     }
 
 }
+
 
 
 
